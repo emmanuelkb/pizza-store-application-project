@@ -1,0 +1,245 @@
+[
+    {
+        "order_id": "5b7f6708-233f-44ff-86a6-13961d39c669",
+        "customer_name": "John Smith",
+        "phone": "555-0123",
+        "delivery_time": "2024-12-13T18:30:00",
+        "status": "preparing",
+        "items": [
+            {
+                "quantity": 1,
+                "type": "pizza",
+                "item": {
+                    "name": "Pepperoni Special",
+                    "description": "Classic pepperoni pizza with extra cheese",
+                    "size": "large",
+                    "price": 18.99,
+                    "category": "meat",
+                    "recipe": {
+                        "name": "Pepperoni Special Recipe",
+                        "ingredients": [
+                            {
+                                "name": "Pizza Dough",
+                                "quantity": 1,
+                                "unit": "base",
+                                "reorder_level": 10
+                            },
+                            {
+                                "name": "Pepperoni",
+                                "quantity": 30,
+                                "unit": "slices",
+                                "reorder_level": 100
+                            },
+                            {
+                                "name": "Mozzarella",
+                                "quantity": 200,
+                                "unit": "grams",
+                                "reorder_level": 1000
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "quantity": 1,
+                "type": "pizza",
+                "item": {
+                    "size": "medium",
+                    "base_price": 14.0,
+                    "toppings": {
+                        "Mushrooms": 2,
+                        "Olives": 1,
+                        "Extra Cheese": 1
+                    }
+                }
+            },
+            {
+                "quantity": 2,
+                "type": "side",
+                "item": {
+                    "name": "Caesar Salad",
+                    "description": "Fresh romaine lettuce with creamy Caesar dressing",
+                    "price": 8.99,
+                    "category": "salad"
+                }
+            }
+        ]
+    },
+    {
+        "order_id": "a70f1547-bdef-4f56-bfa9-77f00a5ef21f",
+        "customer_name": "Jane Doe",
+        "phone": "555-0124",
+        "delivery_time": "2024-12-13T19:00:00",
+        "status": "new",
+        "items": [
+            {
+                "quantity": 2,
+                "type": "pizza",
+                "item": {
+                    "name": "Vegetarian Supreme",
+                    "description": "Loaded with fresh vegetables",
+                    "size": "medium",
+                    "price": 16.99,
+                    "category": "vegetarian",
+                    "recipe": {
+                        "name": "Vegetarian Supreme Recipe",
+                        "ingredients": [
+                            {
+                                "name": "Pizza Dough",
+                                "quantity": 1,
+                                "unit": "base",
+                                "reorder_level": 10
+                            },
+                            {
+                                "name": "Bell Peppers",
+                                "quantity": 50,
+                                "unit": "grams",
+                                "reorder_level": 200
+                            },
+                            {
+                                "name": "Mushrooms",
+                                "quantity": 50,
+                                "unit": "grams",
+                                "reorder_level": 200
+                            },
+                            {
+                                "name": "Onions",
+                                "quantity": 30,
+                                "unit": "grams",
+                                "reorder_level": 200
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "quantity": 2,
+                "type": "side",
+                "item": {
+                    "name": "Soft Drink",
+                    "description": "Choice of Coca-Cola, Sprite, or Fanta",
+                    "price": 2.99,
+                    "category": "beverage"
+                }
+            },
+            {
+                "quantity": 1,
+                "type": "side",
+                "item": {
+                    "name": "Chocolate Cake",
+                    "description": "Rich chocolate layer cake with chocolate frosting",
+                    "price": 6.99,
+                    "category": "dessert"
+                }
+            }
+        ]
+    },
+    {
+        "order_id": "f9059615-7afa-4038-9268-c3ad2d939030",
+        "customer_name": "Ama",
+        "phone": "333",
+        "delivery_time": "2024-12-13T16:13:00",
+        "status": "ready",
+        "items": [
+            {
+                "quantity": 2,
+                "type": "pizza",
+                "item": {
+                    "name": "Small Margherita",
+                    "description": "Classic Italian pizza with fresh mozzarella and tomato sauce",
+                    "size": "small",
+                    "price": 9.99,
+                    "category": "vegetarian",
+                    "recipe": {
+                        "name": "Classic Margherita",
+                        "ingredients": [
+                            {
+                                "name": "Pizza Dough",
+                                "quantity": 250.0,
+                                "unit": "grams",
+                                "reorder_level": 1000
+                            },
+                            {
+                                "name": "Tomato Sauce",
+                                "quantity": 80.0,
+                                "unit": "ml",
+                                "reorder_level": 500
+                            },
+                            {
+                                "name": "Mozzarella Cheese",
+                                "quantity": 150.0,
+                                "unit": "grams",
+                                "reorder_level": 2000
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "order_id": "26de00f2-b105-4189-b6f7-1bf8750a3b2e",
+        "customer_name": "Emmanuel",
+        "phone": "9256635775",
+        "delivery_time": "2024-06-06T15:54:00",
+        "status": "cancelled",
+        "items": [
+            {
+                "quantity": 2,
+                "type": "pizza",
+                "item": {
+                    "name": "Medium Vegetarian Delight",
+                    "description": "Fresh mushrooms and bell peppers with mozzarella",
+                    "size": "medium",
+                    "price": 14.99,
+                    "category": "vegetarian",
+                    "recipe": {
+                        "name": "Vegetarian Delight",
+                        "ingredients": [
+                            {
+                                "name": "Pizza Dough",
+                                "quantity": 250.0,
+                                "unit": "grams",
+                                "reorder_level": 1000
+                            },
+                            {
+                                "name": "Tomato Sauce",
+                                "quantity": 80.0,
+                                "unit": "ml",
+                                "reorder_level": 500
+                            },
+                            {
+                                "name": "Mozzarella Cheese",
+                                "quantity": 150.0,
+                                "unit": "grams",
+                                "reorder_level": 2000
+                            },
+                            {
+                                "name": "Mushrooms",
+                                "quantity": 80.0,
+                                "unit": "grams",
+                                "reorder_level": 600
+                            },
+                            {
+                                "name": "Bell Peppers",
+                                "quantity": 60.0,
+                                "unit": "grams",
+                                "reorder_level": 450
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "quantity": 2,
+                "type": "side",
+                "item": {
+                    "name": "Caesar Salad",
+                    "description": "Fresh romaine lettuce with creamy Caesar dressing, croutons and parmesan",
+                    "price": 8.99,
+                    "category": "salad"
+                }
+            }
+        ]
+    }
+]

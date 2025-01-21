@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Caesar Salad",
+        "description": "Fresh romaine lettuce with creamy Caesar dressing, croutons and parmesan",
+        "price": 8.99,
+        "category": "salad"
+    },
+    {
+        "name": "Greek Salad",
+        "description": "Mixed greens with feta, olives, tomatoes and Greek dressing",
+        "price": 9.99,
+        "category": "salad"
+    },
+    {
+        "name": "Garlic Breadsticks",
+        "description": "Freshly baked breadsticks with garlic butter and herbs",
+        "price": 5.99,
+        "category": "appetizer"
+    },
+    {
+        "name": "Chocolate Cake",
+        "description": "Rich chocolate layer cake with chocolate frosting",
+        "price": 6.99,
+        "category": "dessert"
+    },
+    {
+        "name": "Tiramisu",
+        "description": "Classic Italian dessert with coffee-soaked ladyfingers",
+        "price": 7.99,
+        "category": "dessert"
+    },
+    {
+        "name": "Soft Drink",
+        "description": "Choice of Coca-Cola, Sprite, or Fanta",
+        "price": 2.99,
+        "category": "beverage"
+    },
+    {
+        "name": "Bottled Water",
+        "description": "500ml purified water",
+        "price": 1.99,
+        "category": "beverage"
+    }
+]

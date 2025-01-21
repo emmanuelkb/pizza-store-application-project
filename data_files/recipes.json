@@ -1,0 +1,100 @@
+[
+    {
+        "name": "Classic Margherita",
+        "ingredients": [
+            {
+                "name": "Pizza Dough",
+                "quantity": 250.0,
+                "unit": "grams",
+                "reorder_level": 1000
+            },
+            {
+                "name": "Tomato Sauce",
+                "quantity": 80.0,
+                "unit": "ml",
+                "reorder_level": 500
+            },
+            {
+                "name": "Mozzarella Cheese",
+                "quantity": 150.0,
+                "unit": "grams",
+                "reorder_level": 2000
+            }
+        ]
+    },
+    {
+        "name": "Pepperoni Supreme",
+        "ingredients": [
+            {
+                "name": "Pizza Dough",
+                "quantity": 250.0,
+                "unit": "grams",
+                "reorder_level": 1000
+            },
+            {
+                "name": "Tomato Sauce",
+                "quantity": 80.0,
+                "unit": "ml",
+                "reorder_level": 500
+            },
+            {
+                "name": "Mozzarella Cheese",
+                "quantity": 200.0,
+                "unit": "grams",
+                "reorder_level": 2000
+            },
+            {
+                "name": "Pepperoni",
+                "quantity": 100.0,
+                "unit": "grams",
+                "reorder_level": 750
+            }
+        ]
+    },
+    {
+        "name": "Vegetarian Delight",
+        "ingredients": [
+            {
+                "name": "Pizza Dough",
+                "quantity": 250.0,
+                "unit": "grams",
+                "reorder_level": 1000
+            },
+            {
+                "name": "Tomato Sauce",
+                "quantity": 80.0,
+                "unit": "ml",
+                "reorder_level": 500
+            },
+            {
+                "name": "Mozzarella Cheese",
+                "quantity": 150.0,
+                "unit": "grams",
+                "reorder_level": 2000
+            },
+            {
+                "name": "Mushrooms",
+                "quantity": 80.0,
+                "unit": "grams",
+                "reorder_level": 600
+            },
+            {
+                "name": "Bell Peppers",
+                "quantity": 60.0,
+                "unit": "grams",
+                "reorder_level": 450
+            }
+        ]
+    },
+    {
+        "name": "REW",
+        "ingredients": [
+            {
+                "name": "EWR",
+                "quantity": 1.0,
+                "unit": "1",
+                "reorder_level": 1
+            }
+        ]
+    }
+]

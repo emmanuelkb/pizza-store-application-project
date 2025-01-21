@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Pizza Dough",
+        "quantity": 500.0,
+        "unit": "grams",
+        "reorder_level": 1000
+    },
+    {
+        "name": "Tomato Sauce",
+        "quantity": 250.0,
+        "unit": "ml",
+        "reorder_level": 500
+    },
+    {
+        "name": "Mozzarella Cheese",
+        "quantity": 1000.0,
+        "unit": "grams",
+        "reorder_level": 2000
+    },
+    {
+        "name": "Pepperoni",
+        "quantity": 500.0,
+        "unit": "grams",
+        "reorder_level": 750
+    },
+    {
+        "name": "Mushrooms",
+        "quantity": 1000.0,
+        "unit": "grams",
+        "reorder_level": 600
+    },
+    {
+        "name": "Bell Peppers",
+        "quantity": 600.0,
+        "unit": "grams",
+        "reorder_level": 450
+    }
+]

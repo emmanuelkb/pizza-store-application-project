@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Small Margherita",
+        "description": "Classic Italian pizza with fresh mozzarella and tomato sauce",
+        "size": "small",
+        "price": 9.99,
+        "category": "vegetarian",
+        "recipe": {
+            "name": "Classic Margherita",
+            "ingredients": [
+                {
+                    "name": "Pizza Dough",
+                    "quantity": 250.0,
+                    "unit": "grams",
+                    "reorder_level": 1000
+                },
+                {
+                    "name": "Tomato Sauce",
+                    "quantity": 80.0,
+                    "unit": "ml",
+                    "reorder_level": 500
+                },
+                {
+                    "name": "Mozzarella Cheese",
+                    "quantity": 150.0,
+                    "unit": "grams",
+                    "reorder_level": 2000
+                }
+            ]
+        }
+    },
+    {
+        "name": "Large Pepperoni Supreme",
+        "description": "Loaded with pepperoni and extra cheese",
+        "size": "large",
+        "price": 16.99,
+        "category": "meat",
+        "recipe": {
+            "name": "Pepperoni Supreme",
+            "ingredients": [
+                {
+                    "name": "Pizza Dough",
+                    "quantity": 250.0,
+                    "unit": "grams",
+                    "reorder_level": 1000
+                },
+                {
+                    "name": "Tomato Sauce",
+                    "quantity": 80.0,
+                    "unit": "ml",
+                    "reorder_level": 500
+                },
+                {
+                    "name": "Mozzarella Cheese",
+                    "quantity": 200.0,
+                    "unit": "grams",
+                    "reorder_level": 2000
+                },
+                {
+                    "name": "Pepperoni",
+                    "quantity": 100.0,
+                    "unit": "grams",
+                    "reorder_level": 750
+                }
+            ]
+        }
+    },
+    {
+        "name": "Medium Vegetarian Delight",
+        "description": "Fresh mushrooms and bell peppers with mozzarella",
+        "size": "medium",
+        "price": 14.99,
+        "category": "vegetarian",
+        "recipe": {
+            "name": "Vegetarian Delight",
+            "ingredients": [
+                {
+                    "name": "Pizza Dough",
+                    "quantity": 250.0,
+                    "unit": "grams",
+                    "reorder_level": 1000
+                },
+                {
+                    "name": "Tomato Sauce",
+                    "quantity": 80.0,
+                    "unit": "ml",
+                    "reorder_level": 500
+                },
+                {
+                    "name": "Mozzarella Cheese",
+                    "quantity": 150.0,
+                    "unit": "grams",
+                    "reorder_level": 2000
+                },
+                {
+                    "name": "Mushrooms",
+                    "quantity": 80.0,
+                    "unit": "grams",
+                    "reorder_level": 600
+                },
+                {
+                    "name": "Bell Peppers",
+                    "quantity": 60.0,
+                    "unit": "grams",
+                    "reorder_level": 450
+                }
+            ]
+        }
+    }
+]
